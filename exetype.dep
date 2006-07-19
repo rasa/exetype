@@ -1,0 +1,17 @@
+# Microsoft Developer Studio Generated Dependency File, included by exetype.mak
+
+.\exetype.cpp : \
+	".\version.h"\
+	{$(INCLUDE)}"debug.h"\
+	{$(INCLUDE)}"getopt.h"\
+	{$(INCLUDE)}"Optimize.h"\
+	{$(INCLUDE)}"Stackwalker.h"\
+	{$(INCLUDE)}"SystemMessage.h"\
+	{$(INCLUDE)}"ver_defaults.h"\
+	
+
+.\exetype.rc : \
+	".\exetype.ico"\
+	".\version.h"\
+	{$(INCLUDE)}"ver_defaults.h"\
+	
