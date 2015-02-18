@@ -19,7 +19,7 @@ General Public License for more details.
 # define WIN32_LEAN_AND_MEAN 1
 #endif
 
-// #define _WIN32_WINNT 0x501
+//#define _WIN32_WINNT 0x501
 
 #include <cstdio>
 

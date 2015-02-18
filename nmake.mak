@@ -1,10 +1,10 @@
 all:
-	$(CYGENV) nmake /f exetype.mak CFG="exetype - Win32 Release"	all
-	$(CYGENV) nmake /f exetype.mak CFG="exetype - Win32 Debug"		all
+	$(MAKE) /f exetype.mak CFG="exetype - Win32 Release"	all
+	$(MAKE) /f exetype.mak CFG="exetype - Win32 Debug"		all
 
 clean:
-	$(CYGENV) nmake /f exetype.mak CFG="exetype - Win32 Release"	clean
-	$(CYGENV) nmake /f exetype.mak CFG="exetype - Win32 Debug"		clean
+	$(MAKE) /f exetype.mak CFG="exetype - Win32 Release"	clean
+	$(MAKE) /f exetype.mak CFG="exetype - Win32 Debug"		clean
 
 realclean: clean
 	-cmd /c del /s *.bak
