@@ -28,6 +28,7 @@ General Public License for more details.
 #include <cstdio>
 
 #include <windows.h>
+#include <winnt.h>
 //#include <atlbase.h> // required for Stackwalker
 
 //#include <stdio.h>
@@ -44,6 +45,14 @@ General Public License for more details.
 #include "getopt.h"
 #include "SystemMessage.h"
 #include "version.h"
+
+#ifndef IMAGE_SIZEOF_NT_OPTIONAL_HEADER
+#ifdef _WIN64
+#define IMAGE_SIZEOF_NT_OPTIONAL_HEADER     240
+#else
+#define IMAGE_SIZEOF_NT_OPTIONAL_HEADER     224
+#endif
+#endif
 
 #define APPNAME			VER_INTERNAL_NAME
 #define APPVERSION		VER_STRING2
