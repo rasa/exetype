@@ -1,9 +1,12 @@
-exetype changelog
+## 1.2 (unreleased)
 
-Version 1.1 - 19 Jul 06:
+  * Updated to Visual Studio 2013
+  * Switch to MIT license
 
-	Standardized version information across all programs
+## 1.1 (19 Jul 06)
 
-Version 1.0 - 08 Apr 06:
+  * Standardized version information across all programs
 
-	Initial release
+## 1.0 (08 Apr 06)
+
+  * Initial release
