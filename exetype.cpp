@@ -255,6 +255,11 @@ int main(int argc, char **argv) {
 
 		int c = getopt_long(argc, argv, short_options, long_options, &option_index);
 
+		if (opterr) {
+			usage();
+			exit(1);
+		}
+
 		if (c == -1)
 			break;
 
