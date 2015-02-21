@@ -1,12 +1,13 @@
-## 1.2 (unreleased)
+## 1.2 (20-Feb-2015)
 
+  * Workaround buggy getopt implementation
   * Updated to Visual Studio 2013
   * Switch to MIT license
 
-## 1.1 (19 Jul 06)
+## 1.1 (19-Jul-2006)
 
   * Standardized version information across all programs
 
-## 1.0 (08 Apr 06)
+## 1.0 (08-Apr-2006)
 
   * Initial release
