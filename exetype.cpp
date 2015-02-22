@@ -276,6 +276,9 @@ int main(int argc, char **argv) {
 			case '?': // --help
 				usage();
 				exit(0);
+			case ':':
+				fprintf(stderr, "Option -%c requires an operand\n", optopt);
+				// fallthrough
 			default:
 				usage();
 				exit(1);
