@@ -1,6 +1,6 @@
-# exetype 
+# exetype [![Flattr this][flatter_png]][flatter]
 
-Display the type of a Windows EXE file
+Display the type of a Windows EXE file.
 
 ## Usage
 
@@ -15,7 +15,7 @@ Options (defaults in parentheses):
 
 ## Examples
 
-````
+````batch
 c:\>exetype exetype.exe
 
 exetype.exe: Windows Console
@@ -33,6 +33,8 @@ c:\>echo %errorlevel%
 ````
 
 ## EXE Types
+
+````
 IMAGE_SUBSYSTEM_UNKNOWN              0   // Unknown subsystem.
 IMAGE_SUBSYSTEM_NATIVE               1   // Image doesn't require a subsystem.
 IMAGE_SUBSYSTEM_WINDOWS_GUI          2   // Image runs in the Windows GUI subsystem.
@@ -46,6 +48,7 @@ IMAGE_SUBSYSTEM_EFI_BOOT_SERVICE_DRIVER  11   //
 IMAGE_SUBSYSTEM_EFI_RUNTIME_DRIVER   12  //
 IMAGE_SUBSYSTEM_EFI_ROM              13
 IMAGE_SUBSYSTEM_XBOX                 14
+````
 
 ## Contributing
 
@@ -53,17 +56,25 @@ To contribute to this project, please see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Bugs
 
-To view existing bugs, or report a new bug, please see the [issues](/issues) page for this project.
+To view existing bugs, or report a new bug, please see [issues](../../issues).
+
+## Changelog
+
+To view the version history for this project, please see [CHANGELOG.md](CHANGELOG.md).
 
 ## License
 
 This project is [MIT licensed](LICENSE).
 
-## Changelog
-
-Please see [CHANGELOG.md](CHANGELOG.md) for the version history for this project.
-
 ## Contact
 
-This project was originally developed by [Ross Smith II](mailto:ross@smithii.com).
-Any enhancements and suggestions are welcome.
+This project was created and is maintained by [Ross Smith II][] [![endorse][endorse_png]][endorse]
+
+Feedback, suggestions, and enhancements are welcome.
+
+[Ross Smith II]: mailto:ross@smithii.com "ross@smithii.com"
+[flatter]: https://flattr.com/submit/auto?user_id=rasa&url=https%3A%2F%2Fgithub.com%2Frasa%2Fexetype
+[flatter_png]: http://button.flattr.com/flattr-badge-large.png "Flattr this"
+[endorse]: https://coderwall.com/rasa
+[endorse_png]: https://api.coderwall.com/rasa/endorsecount.png "endorse"
+
