@@ -24,11 +24,7 @@
 
 #include <imagehlp.h>
 
-#include "Stackwalker.h"
-#include "Optimize.h"
-#include "debug.h"
 #include "getopt.h"
-#include "SystemMessage.h"
 #include "version.h"
 
 #ifndef IMAGE_SIZEOF_NT_OPTIONAL_HEADER
