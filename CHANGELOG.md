@@ -1,5 +1,10 @@
-## 1.5 (unreleased)
+## 1.5 (30-Dec-2016)
 
+  * Add support for x64 and Itanium cpus
+  * Add -t (--type) option
+  * Add -c (--cpu) option
+  * Add -i (--ignore) option
+  * Update to Visual Studio 2015
   * Update Makefile
 
 ## 1.4 (28-Mar-2015)

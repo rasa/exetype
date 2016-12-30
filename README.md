@@ -8,6 +8,8 @@ Display the type of a Windows EXE file.
 exetype [options] target.exe
 
 Options (defaults in parentheses):
+-t | --type                    Only display exe type
+-c | --cpu                     Only display cpu type
 -q | --quiet                   Only display errors, set errorcode to exe type
 -v | --version                 Show version and copyright and quit
 -? | --help                    Show this help message and quit
@@ -18,10 +20,10 @@ Options (defaults in parentheses):
 ````batch
 c:\>exetype exetype.exe
 
-exetype.exe: Windows Console
+exetype.exe: Windows Console (x86 32-bit)
 
 c:\>exetype %windir%\notepad.exe
-C:\WINDOWS\notepad.exe: Windows GUI
+C:\WINDOWS\notepad.exe: Windows GUI (x86 32-bit)
 
 c:\>echo %errorlevel%
 2
